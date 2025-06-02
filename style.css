@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-top: 0;
+  color: #555;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+canvas {
+  border: 2px dashed #999;
+  margin-top: 20px;
+  cursor: grab;
+  background: #fff;
+}

@@ -1,0 +1,28 @@
+<!--
+REDDIT BANNER FORMATTER
+How to use:
+- Open index.html in a browser
+- Upload an image
+- Drag/zoom to crop the part you like
+- Download the final Reddit banner (1920x384, under 500KB)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reddit Banner Maker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Reddit Banner Maker</h1>
+  <p>Upload and resize your image to fit a Reddit profile banner (1920×384)</p>
+  <input type="file" id="upload" />
+  <br />
+  <canvas id="banner" width="960" height="192"></canvas>
+  <br />
+  <button id="download">Download Banner</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
